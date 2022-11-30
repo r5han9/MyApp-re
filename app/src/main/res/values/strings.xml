@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Favorite Anime Characters</string>
+    <string name="profile">Profil</string>
+    <string name="creator">Rifqi Raehan Hermawan</string>
+    <string name="email">rifqiraehan86@gmail.com</string>
+    <string name="charas_name">Nama Karakter</string>
+    <string name="detail">Detail</string>
+    <string name="anime">Anime</string>
+    <string name="information">Information</string>
+    <string name="anime_info">Love Live! School Idol Project</string>
+    <string name="info_char">Nico has been observing Honoka\'s new Idol group for a while but eventually joins them. She has past experiences as an amateur school idol. At first, she was secretly the President of the school\'s unknown Idol Research Club, but after an incident, the club was later joined together with Honoka\'s Idol Club. She likes bossing people around and acting superior, but she also has an energetic and cheeky personality.</string>
+    <string name="share">SHARE</string>
+</resources>

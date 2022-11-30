@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".DetailChara">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:background="@drawable/rectangle_1" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="49dp"
+            android:fontFamily="@font/overpass_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="28sp"
+            tools:text="@string/charas_name" />
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="170dp"
+            android:layout_height="256dp"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/nico" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="@string/anime" />
+
+                <TextView
+                    android:id="@+id/tv_anime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/anime" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal|center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="@string/information" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/tv_item_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    tools:text="@string/detail"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/action_share"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="395dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="@string/share"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>
